@@ -2,9 +2,9 @@ variable "resource_group" {
     description     =       "Create multiple resource groups"
     type            =       map(string)
     default         =       {
-        "Shreyesh1" =       "West Europe"
-        "Chetan"    =       "West Europe"
-        "Yogesh"    =       "West Europe"
+        "Amar"      =       "West Europe"
+        "Akbar"     =       "West Europe"
+        "Anthony"   =       "West Europe"
     }
 }
 variable "tags" {
