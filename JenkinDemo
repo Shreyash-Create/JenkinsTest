@@ -8,7 +8,7 @@ pipeline {
         steps {
             checkout scm
             script {          
-                git branch: 'RG', credentialsId: 'Git', url: 'https://github.com/YogeshBaldha/Vantage.git'
+                git branch: 'main', credentialsId: 'Shreyesh', url: 'https://github.com/Shreyash-Create/JenkinsTest.git'
                 }
             }
         }          
